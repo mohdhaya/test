@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# List of folder names you want to create
+folders=("folder1" "folder2" "folder3")
+
+# Loop through the list and create each folder in /home
+for folder in "${folders[@]}"; do
+    mkdir -p "/home/$folder"
+done
+
+echo "Folders created successfully."
