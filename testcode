@@ -9,3 +9,4 @@ for folder in "${folders[@]}"; do
 done
 
 echo "Folders created successfully."
+#Thanks for adding in this code
